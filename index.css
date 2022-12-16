@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Josefin Sans',sans-serif;
+    font-weight: 500;
+    color: rgb(99, 92, 92);
+    
+}
+html,body
+{
+     margin: 0mm;
+    padding: 0px; 
+    scroll-behavior: smooth;
+}
+.logo a:hover,.logo a {
+    color: #384046;
+    text-decoration: none;
+  }
+ #smaag  {
+      max-height: 3em;
+      padding: 1em 0 0 5em;
+    float: left;
+  }
+  .logo-container a
+  {
+    margin: 0;
+    padding: 0;
+  }
+  .me-auto {
+    margin-right: auto !important;
+    display: inline;
+  }
+#list
+{
+list-style-type: none;
+text-align: right;
+/* margin: 0%; */
+}
+.nav_1 li
+{
+    display: inline;
+    padding: 0.5em;
+}
+.topnav
+{
+    font-size: large;
+    display: inline-block;
+    padding:0.7em 1.5em 0.7em 1.5em;
+    border-radius: 0.75rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.topnav:hover
+{
+    color: rgb(255, 0, 0);
+    background-color: rgba(76, 66, 66, 0.416);
+    transform: scale(1.1);
+}
+.main_nav
+ {
+  position: relative;
+    text-align: justify;
+    text-align:center;
+    font-size: medium;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(10, 21, 24, 0.959);
+}
+.main_nav li
+{
+    padding: 0.5%; 
+}
+#head-1
+{
+  width: 100%;
+  position: fixed;
+} 
+.footer-nav li{
+    padding: 0.5em;
+    display: inline;
+}
+.footer-nav img
+{
+width:15%;
+height: 80%;
+}
+.bg-dark {
+    background-color:  rgba(39, 46, 38, 0.9) !important;
+  }
+  .p-5 {
+    padding: 2rem !important;
+  }
+  .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .d-flex {
+    display: flex !important;
+  }
+  .flex-column {
+    flex-direction: column !important;
+    display: inline-flex;
+  }
+  .justify-content-start {
+    justify-content: flex-start !important;
+  }
+  .col-lg-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  
+.text-white {
+    color: #fff !important;
+}
+ .footer{
+ position: relative ;
+ max-height: fit-content; 
+ }
+ .remove-u
+ {
+  padding: 0.5rem 0% 0.5rem 0%;
+  color: aliceblue;
+ }
+ .remove-u .text-color
+ {
+  color:rgb(223, 44, 44);
+ }
+ .text-color
+ {
+  color:rgb(223, 44, 44);
+ }
+ body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+i{
+  color: rgb(236, 226, 226);
+}
