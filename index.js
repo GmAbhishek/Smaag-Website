@@ -11,7 +11,7 @@ function scrollFunction() {
     mybutton.style.display ="block";
     list.style.margin = "0.2em 0 0.2em 0";   
     logo.style.padding= "0.3em 0 0 5em";   
-    logo.style.maxHeight = "2em";
+    logo.style.maxHeight = "3em";
    head.style.backgroundColor = "white"; 
   } 
   else {
@@ -19,7 +19,7 @@ function scrollFunction() {
     list.style.margin = "1em 0 1em 0";    
     head.style.background = "transparent";
     logo.style.padding= "1em 0 0 5em";   
-    logo.style.maxHeight = "3em";
+    logo.style.maxHeight = "4em";
   }
 }
 function topFunction() {
