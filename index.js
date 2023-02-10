@@ -1,4 +1,3 @@
-
 let mybutton = document.getElementById("myBtn");
 let list = document.getElementById("list");
 let logo = document.getElementById("smaag");
