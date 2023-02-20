@@ -1,8 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: 'Josefin Sans',sans-serif;
-    font-weight: 500;
-    color: rgb(99, 92, 92);   
+    font-weight: 500; 
 }
 html,body
 {
@@ -111,7 +110,8 @@ color: rgb(255, 255, 255);
 }
 #bot_logo
 {
-margin: 1rem 1rem 0 2rem;
+padding: 1rem 1rem 0 2rem;
+margin: 0;
 color: #fff;
 font-family: "Lucida Console", "Courier New", monospace;
 }
@@ -147,13 +147,32 @@ font-family: "Lucida Console", "Courier New", monospace;
 #myBtn:hover {
   background-color: #555;
 }
-i{
+footer i{
   color: rgb(231, 223, 223);
 }
 .footer__credits
 {
   color: rgb(255, 255, 255);
-  margin: 0.5em;
+  margin: 0;
+  padding: 0.5rem;
   font-size: small;
   text-align: center;
+}
+#bg-trans 
+{
+  background-image: url("assets/Product-bg.jpg");
+  position: relative;
+width: 100%;
+height: 100vh;
+background-position:center ;
+background-size: cover;
+background-repeat: no-repeat; 
+display: flex;
+    justify-content: center;
+align-items: center;
+}
+#context
+{
+  color: rgb(255, 255, 255);
+  font-size: 100px;
 }
